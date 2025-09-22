@@ -1,0 +1,101 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      margin: 0;
+      padding: 0.5rem;
+      text-align: center;
+      background: #333;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    #publications {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    
+    #publications h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+    
+    #publications ol {
+      line-height: 1.6;
+    }
+    
+    #publications li {
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+    
+    /* About Me two-column layout */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;       /* allows stacking on small screens */
+  gap: 2rem;             /* space between columns */
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.about-photo img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  flex: 1;               /* takes remaining space */
+  min-width: 250px;      /* prevents text from being too narrow */
+  line-height: 1.7;
+  text-align: justify;   /* makes paragraphs neat */
+}
+
+#about h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+
+  </style>
