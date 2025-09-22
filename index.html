@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <p>This is my very first web page!</p>
-  </header>
+<header>
+  <h1>Welcome to My Website</h1>
+  <p><em>“Exploration is really the essence of the human spirit.” – Frank Borman</em></p>
+</header>
 
   <nav>
     <a href="#about">About</a>
@@ -18,23 +18,30 @@
     <a href="#contact">Contact</a>
   </nav>
 
-<img src="me.jpg" alt="My Photo" width="200">
-
-
-  <section id="about">
+<section id="about">
   <h2>About Me</h2>
-  <p>
-    Hi, I’m <strong>Aninda Pal</strong>, a PhD researcher at the Indian Institute of Technology 
-    Kharagpur working under Professor Ritwik Ghoshal. When I’m not doing research, I love reading books, 
-    playing table tennis, and jogging—they keep me curious, active, and balanced.
-  </p>
-  <p>
-    My research explores how structures interact with fluids, especially in challenging conditions like 
-    underwater environments or high-intensity loading. I work on developing semi-analytical and 
-    computational models to understand vibrations, acoustics, and impact response of advanced composite 
-    and metastructured plates. Ultimately, I’m interested in creating ideas that can help design better 
-    systems for underwater vehicles, robotics, defense, and marine engineering.
-  </p>
+  <div class="about-container">
+    <!-- Left column: photo -->
+    <div class="about-photo">
+      <img src="me.jpg" alt="Aninda Pal" width="250">
+    </div>
+
+    <!-- Right column: text -->
+    <div class="about-text">
+      <p>
+        Hi, I’m <strong>Aninda Pal</strong>, a PhD researcher at the Indian Institute of Technology 
+        Kharagpur working under Professor Ritwik Ghoshal. When I’m not doing research, I love reading books, 
+        playing table tennis, and jogging—they keep me curious, active, and balanced.
+      </p>
+      <p>
+        My research explores how structures interact with fluids, especially in challenging conditions like 
+        underwater environments or high-intensity loading. I work on developing semi-analytical and 
+        computational models to understand vibrations, acoustics, and impact response of advanced composite 
+        and metastructured plates. Ultimately, I’m interested in creating ideas that can help design better 
+        systems for underwater vehicles, robotics, defense, and marine engineering.
+      </p>
+    </div>
+  </div>
 </section>
 
   <section id="research">
